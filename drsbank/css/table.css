@@ -1,0 +1,44 @@
+#customers-table {
+    border-collapse: collapse;
+    width: 60%;
+    margin-left: 50%;
+    margin-top: 15px;
+    transform: translate(-50%);
+    box-shadow: 0 0 5px 1px rgb(223, 223, 223);
+    border-radius: 2px;
+}
+#customers-table td, #customers-table th {
+    text-align: left;
+    border: 1px solid #ddd;
+    padding: 12px;
+}
+td {
+    font-size:  16px;
+}
+
+#customers-table tr:hover {
+    background-color: rgb(238, 238, 238);
+}
+
+#customers-table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #007FFF;
+    color: white;
+}
+
+
+/* Transfer Button Styling */
+td .btn-a {
+    margin-left: 50%;
+}
+.btn-transfer {
+    text-decoration: none;
+    color: black;
+    background-color: rgb(0, 255, 76);
+    text-align: center;
+    border: none;
+    border-radius: 1px;
+    padding: 5px;
+}

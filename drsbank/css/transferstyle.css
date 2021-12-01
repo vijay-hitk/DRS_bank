@@ -1,0 +1,66 @@
+form {
+    width:80%;
+    margin-left: 50%;
+    margin-top: 60px;
+    transform: translate(-50%);
+}
+#to {
+  margin-bottom: 15px;
+}
+
+#customers-table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 15px;
+    border-radius: 2px;
+    margin-bottom: 30px;
+}
+
+#customers-table td, #customers-table th {
+    text-align: left;
+    padding: 12px;
+}
+
+#customers-table td {
+    font-size: 16px;
+    font-weight:100;
+}
+
+#customers-table th {
+    border-bottom: 0.5px solid rgb(158, 158, 158);
+    font-size: 17px;
+}
+.drop-down, #amount {
+    width: 400px;
+    height: 40px;
+    border-style: none;
+    font-size: 15px;
+    padding-left: 10px;
+    border-radius: 3px;
+    box-shadow: 0 0 5px 1px rgb(204, 204, 204);
+}
+.transfer-btn {
+    outline: none;
+    width: 180px;
+    height: 50px;
+    background-color: #00C8F4 ;
+    border-style: none;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 3px;
+    box-shadow: 0 0 5px 1px rgb(204, 204, 204);
+    transition: background-color 0.2s ease;
+    margin-left: 100px;
+}
+.transfer-btn:hover {
+    background-color:#007e9b;
+    color: white;
+}
+
+#amount {
+    display: block;
+    width: 120px;
+    font-size: 15px;
+    margin-top: 25px;
+    cursor:auto;
+}

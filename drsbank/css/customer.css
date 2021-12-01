@@ -1,0 +1,15 @@
+
+.c-heading {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 30px;
+}
+hr {
+    width: 40%;
+    margin-left: 50%;
+    margin-top: 5px;
+    transform: translate(-50%, -50%);
+    background-color:rgba(197, 197, 197, 0.1);
+    opacity: 40%;
+}
+
